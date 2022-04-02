@@ -1,0 +1,37 @@
+.main-text {
+  font-size: 110px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1em;
+}
+
+.back-design {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: var(--white);
+  clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
+}
+
+.play {
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1em var(--accent);
+  background-color: var(--primary);
+}
+
+.back-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -2;
+}
+
+.back-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+:root {
+  --primary: #13234e;
+  --accent: #fd4b18;
+  --purple: #371399;
+  --white: #f7f9fb;
+}
+
+.root-container {
+  height: 90vh;
+}
+
+.container-fluid {
+  position: relative;
+  padding-left: 0 !important;
+}
+
+.back-design {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: var(--primary);
+  z-index: -1;
+
+  /* div clip rotation */
+  /* clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%); */
+  /* clip-path: polygon(100% 0%, 70% 0, 30% 100%, 100% 100%); */
+  /* clip-path: polygon(30% 0, 100% 0, 100% 100%, 70% 100%); */
+}
+
+button {
+  width: 10em;
+  height: 5em;
+  background-color: orange !important;
+  border-radius: 2.5em !important;
+  color: #fff;
+}
+
+#text-content {
+  color: #fff;
+}
+
+#first-word{
+    color: var(--accent);
+}
