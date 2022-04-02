@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  background-color: #3b466a;
+  color: #fff;
+  text-transform: capitalize;
+}
+.col-12 h1 {
+  font-size: 60px;
+}
+
+#active-box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  margin-right: 2em;
+}
+
+span {
+  margin-right: 0.5rem;
+}
+
+#newsL input {
+  height: 3rem;
+  margin-bottom: 1rem;
+}

@@ -37,18 +37,19 @@
   /* clip-path: polygon(30% 0, 100% 0, 100% 100%, 70% 100%); */
 }
 
-button {
-  width: 10em;
-  height: 5em;
-  background-color: orange !important;
+.btn {
+  width: 8em;
+  height: 3em;
+  background-color: var(--accent) !important;
   border-radius: 2.5em !important;
-  color: #fff;
+  color: #fff !important;
+  text-transform: capitalize;
 }
 
 #text-content {
   color: #fff;
 }
 
-#first-word{
-    color: var(--accent);
+#first-word {
+  color: var(--accent);
 }
