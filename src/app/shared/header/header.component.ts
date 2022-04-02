@@ -7,6 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  navs = [
+    {
+      name : 'home',
+      link : 'home',
+      status : 'true',
+    },
+    {
+      name : 'about',
+      link : 'about',
+      status : 'false',
+    },
+    {
+      name : 'ourpenting',
+      link : '#',
+      status : 'false'
+    },
+    {
+      name : 'blog',
+      link : '#',
+      status : 'false'
+    },
+    {
+      name : 'contact us',
+      link : '#',
+      status : 'false'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit(): void {

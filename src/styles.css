@@ -6,6 +6,10 @@
   box-sizing: border-box;
   font-family: "poppins";
 }
+@font-face {
+  font-family: cochin;
+  src: url(./assets/font/Cochin-LT-Std-Italic_11151.ttf);
+}
 
 :root {
   --primary: #13234e;
@@ -52,4 +56,11 @@
 
 #first-word {
   color: var(--accent);
+}
+
+#text-content h1,
+#text-content h1 span{
+  font-family: 'cochin';
+  font-size: 4rem;
+  font-weight: bold;
 }

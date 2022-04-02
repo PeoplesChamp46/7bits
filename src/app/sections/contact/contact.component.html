@@ -1,15 +1,33 @@
 <div class="root-container">
   <div class="container-fluid h-100">
-    <div class="row h-100 justify-content">
-      <div class="col-6"></div>
-      <div class="col-2"></div>
+    <div class="row h-100 align-items-center">
+      <div class="col-3 offset-1">
+        <div class="form-floating mb-3 ">
+          <input type="text" class="form-control" id="floatingInput" placeholder="#" >
+          <label for="floatingInput">Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="number" class="form-control" id="floatingInput" placeholder="#">
+          <label for="floatingInput">Phone number</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="#">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+          <label for="floatingTextarea2" id="ta-lable">Message</label>
+        </div>
+        <button class="btn">send</button>
+      </div>
+      <div class="col-5"></div>
       <div
-        class="col-3 d-flex flex-column align-items-end justify-content-around"
+        class="col-2 d-flex flex-column align-items-end justify-content-evenly py-5"
         id="text-content"
       >
-        <h1>
+        <h1 class="align-self-start">
           <span id="first-word">Now</span> <br />
-          dream Pentart
+          contact us
         </h1>
 
         <p class="text-end">
@@ -20,7 +38,7 @@
           distribution of letters,
         </p>
 
-        <button class="btn">read more</button>
+        <button class="btn">send</button>
       </div>
     </div>
     <div class="back-design"></div>

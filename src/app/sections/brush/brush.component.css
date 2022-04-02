@@ -2,4 +2,9 @@
     clip-path: polygon(30% 0, 100% 0, 100% 100%, 70% 100%);
     background-color: #213057;
   }
+
+h1,
+h1 span{
+  font-family: 'cochin';
+}
   
