@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'swiper/swiper.min.css';
+@import 'swiper/swiper-bundle.css';
 
 * {
   margin: 0;

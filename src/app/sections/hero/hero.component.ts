@@ -1,4 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { SwiperComponent } from 'swiper/angular';
+
+
+import SwiperCore, {
+  SwiperOptions,
+  Navigation,
+  Pagination,
+  Mousewheel,
+  Keyboard,
+} from 'swiper';
 
 @Component({
   selector: 'app-hero',
@@ -7,9 +17,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
+
+  @ViewChild(SwiperComponent)
+  swiper!: SwiperComponent;
+
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  config: SwiperOptions = {
+    slidesPerView: 3,
+    spaceBetween: 50,
+    navigation: true,
+    pagination: { clickable: true },
+    scrollbar: { draggable: true },
+  };
+
+  swipePrev() {
+    this.swiper.swiperRef.slidePrev();
+  }
+  swipeNext() {
+    this.swiper.swiperRef.slideNext();
   }
 
 }

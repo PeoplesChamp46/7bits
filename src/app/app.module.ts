@@ -14,6 +14,7 @@ import { BrushComponent } from './sections/brush/brush.component';
 import { CustomerComponent } from './sections/customer/customer.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import { ShopComponent } from './sections/shop/shop.component';
+import { SwiperModule } from "swiper/angular";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ShopComponent } from './sections/shop/shop.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

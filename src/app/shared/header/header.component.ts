@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   navs = [
     {
       name : 'home',
-      link : 'home',
+      link : '',
       status : 'true',
     },
     {
