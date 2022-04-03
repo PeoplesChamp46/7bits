@@ -1,13 +1,113 @@
+<!-- <div class="root-container">
+  <div class="container-fluid h-100">
+    <div class="row h-100 justify-content">
+      <div class="col-md-1"></div>
+      <div
+        class="col-md-3 d-flex flex-column align-items-start justify-content-evenly py-5"
+        id="text-content"
+      >
+        <h1>
+          <span id="first-word">Our</span> <br />
+          dream Pentart
+        </h1>
+
+        <p class="text-start col-8">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters,It is a long established fact a more-or-less normal
+          distribution of letters,
+        </p>
+
+        <button class="btn">read more</button>
+      </div>
+      <div class="col-4"></div>
+         <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+        <swiper
+        [cssMode]="true"
+        [navigation]="false"
+        [mousewheel]="true"
+        [keyboard]="true"
+        class="mySwiper"
+      >
+        <ng-template swiperSlide>
+          <div class="slide-container">
+            <img
+              src="../../../assets/imgs/stag-1998855_1280.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </ng-template>
+        <ng-template swiperSlide>
+          <div class="slide-container">
+            <img
+              src="../../../assets/imgs/bird-4449891_1920.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </ng-template>
+        <ng-template swiperSlide>Slide 3</ng-template>
+        <ng-template swiperSlide>Slide 4</ng-template>
+      </swiper>
+      <div class="btn-grp">
+        <button (click)="swipePrev()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="#000000"
+            style="transform: rotate(-90deg);"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
+            <path
+              d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z"
+            />
+          </svg>
+        </button>
+        <button (click)="swipeNext()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 24 24"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="#000000"
+            style="transform: rotate(90deg);"
+          >
+            <g><path d="M0,0h24v24H0V0z" fill="none" /></g>
+            <g>
+              <polygon
+                points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      </div>
+    </div>
+    <div class="back-design"></div>
+  </div>
+</div>
+
+
+
+
+ -->
+
+
 <div class="root-container">
   <div class="container-fluid h-100">
     <div class="row h-100 justify-content">
       <div class="col-1"></div>
       <div
-        class="col-2 d-flex flex-column align-items-start justify-content-evenly py-5"
+        class="col-4 col-md-3 d-flex flex-column align-items-start justify-content-evenly py-5"
         id="text-content"
       >
         <h1>
-          <span id="first-word">Our</span> <br />
+          <span id="first-word">our</span> <br />
           dream Pentart
         </h1>
 
@@ -21,75 +121,75 @@
 
         <button class="btn">read more</button>
       </div>
-      <div class="col-5"></div>
-      <div
-        class="col-4 d-flex flex-column justify-content-center align-items-center"
-      >
+      <div class="col-1 col-md-4"></div>
+      <div class="col-6 col-md-4  d-flex flex-column justify-content-end  justify-content-md-center align-items-center py-5">
         <swiper
-          [cssMode]="true"
-          [navigation]="false"
-          [mousewheel]="true"
-          [keyboard]="true"
-          class="mySwiper"
-        >
-          <ng-template swiperSlide>
-            <div class="slide-container">
-              <img
-                src="../../../assets/imgs/stag-1998855_1280.png"
-                alt=""
-                class="swi-mg"
+        [cssMode]="true"
+        [navigation]="false"
+        [mousewheel]="true"
+        [keyboard]="true"
+        [loop]="true"
+        class="mySwiper"
+      >
+        <ng-template swiperSlide>
+          <div class="slide-container">
+            <img
+              src="../../../assets/imgs/stag-1998855_1280.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </ng-template>
+        <ng-template swiperSlide>
+          <div class="slide-container">
+            <img
+              src="../../../assets/imgs/bird-4449891_1920.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </ng-template>
+        <ng-template swiperSlide>Slide 3</ng-template>
+        <ng-template swiperSlide>Slide 4</ng-template>
+      </swiper>
+      <div class="btn-grp mt-5 mt-md-0">
+        <button (click)="swipePrev()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="#000000"
+            style="transform: rotate(-90deg);"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
+            <path
+              d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z"
+            />
+          </svg>
+        </button>
+        <button (click)="swipeNext()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            enable-background="new 0 0 24 24"
+            height="24px"
+            viewBox="0 0 24 24"
+            width="24px"
+            fill="#000000"
+            style="transform: rotate(270deg);"
+          >
+            <g><path d="M0,0h24v24H0V0z" fill="none" /></g>
+            <g>
+              <polygon
+                points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"
               />
-            </div>
-          </ng-template>
-          <ng-template swiperSlide>
-            <div class="slide-container">
-              <img
-                src="../../../assets/imgs/bird-4449891_1920.png"
-                alt=""
-                class="swi-mg"
-              />
-            </div>
-          </ng-template>
-          <ng-template swiperSlide>Slide 3</ng-template>
-          <ng-template swiperSlide>Slide 4</ng-template>
-        </swiper>
-        <div class="btn-grp">
-          <button (click)="swipePrev()">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="24px"
-              viewBox="0 0 24 24"
-              width="24px"
-              fill="#000000"
-              style="transform: rotate(-90deg)"
-            >
-              <path d="M0 0h24v24H0V0z" fill="none" opacity=".87" />
-              <path
-                d="M17.51 3.87L15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z"
-              />
-            </svg>
-          </button>
-          <button (click)="swipeNext()">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              enable-background="new 0 0 24 24"
-              height="24px"
-              viewBox="0 0 24 24"
-              width="24px"
-              fill="#000000"
-              style="transform: rotate(-90deg)"
-            >
-              <g><path d="M0,0h24v24H0V0z" fill="none" /></g>
-              <g>
-                <polygon
-                  points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"
-                />
-              </g>
-            </svg>
-          </button>
-        </div>
+            </g>
+          </svg>
+        </button>
+      </div>
       </div>
     </div>
     <div class="back-design"></div>
   </div>
 </div>
+

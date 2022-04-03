@@ -11,5 +11,32 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  navs = [
+    {
+      name : 'home',
+      link : '',
+      status : 'true',
+    },
+    {
+      name : 'about',
+      link : 'about',
+      status : 'false',
+    },
+    {
+      name : 'ourpenting',
+      link : '#',
+      status : 'false'
+    },
+    {
+      name : 'blog',
+      link : '#',
+      status : 'false'
+    },
+    {
+      name : 'contact us',
+      link : '#',
+      status : 'false'
+    }
+  ]
 
 }

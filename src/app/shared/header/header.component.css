@@ -19,3 +19,7 @@
     color: #37139a !important;
     
 }
+
+.navbar{
+    width: calc(100vw - calc(100vw - 100%));
+}

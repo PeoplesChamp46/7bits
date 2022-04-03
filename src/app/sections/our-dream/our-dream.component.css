@@ -29,8 +29,7 @@
   border: solid;
 }
 
-
-.back-design {
+.back-design{
   clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
   background-color: #213057;
 }
@@ -61,4 +60,12 @@ button svg {
 
 .btn-grp button:hover {
   background-color: var(--accent);
+}
+
+@media screen and (max-width: 375px) {
+
+  .mySwiper{
+    overflow: hidden;
+  }
+  
 }

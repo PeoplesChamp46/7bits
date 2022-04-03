@@ -90,3 +90,20 @@ button:hover svg {
   height: 100%;
   object-fit: cover;
 }
+
+
+@media screen and (max-width: 375px){
+  .root-container{
+    height: 90vh;
+  }
+
+  .main-text{
+    margin-top: 2em;
+    font-size: 60px;
+  }
+
+  .play{
+    display: none;
+  }
+  
+}

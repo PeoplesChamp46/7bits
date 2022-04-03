@@ -61,3 +61,11 @@
   .btn-grp button:hover {
     background-color: var(--accent);
   }
+
+  @media screen and (max-width: 375px) {
+
+    .mySwiper{
+      overflow: hidden;
+    }
+    
+  }

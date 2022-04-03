@@ -4,22 +4,57 @@
   color: #fff;
   text-transform: capitalize;
 }
+
 .col-12 h1 {
   font-size: 60px;
 }
 
-#active-box {
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  margin-right: 2em;
+span{
+  margin-right: 1em;
 }
 
-span {
-  margin-right: 0.5rem;
-}
 
 #newsL input {
   height: 3rem;
   margin-bottom: 1rem;
+}
+
+
+.nav-item a {
+  position: relative;
+
+  color: #fff;
+  cursor: pointer;
+  padding-left: 2rem;
+
+}
+
+a::before {
+
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 0;
+  background-color: #fff;
+  align-self: center;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+
+.active::before {
+
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 0;
+  align-self: center;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: var(--accent);
+
 }
