@@ -122,12 +122,13 @@ button:hover svg {
     margin-top: 2em;
     font-size: 60px;
     color: white;
+    padding-left: 0.5em;
 
   }
 
   .play {
 
-    top: 25%;
+    top: 50%;
     width: 3em;
     height: 3em;
     border-radius: 50%;

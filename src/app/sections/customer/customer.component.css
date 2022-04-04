@@ -143,6 +143,8 @@ button svg {
   .card-container {
     overflow: hidden;
     padding: 0 1em;
+    height: 70vh;
+    margin-bottom: 1em;
   }
 
   .card {
