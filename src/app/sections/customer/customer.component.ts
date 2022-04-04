@@ -23,7 +23,7 @@ export class CustomerComponent implements OnInit {
   swiper!: SwiperComponent;
 
   config: SwiperOptions = {
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 50,
     navigation: true,
     pagination: { clickable: true },

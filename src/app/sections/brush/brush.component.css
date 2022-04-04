@@ -10,7 +10,11 @@ h1 span{
 
 
 
+<<<<<<< HEAD
 @media screen and (max-width: 400px) {
+=======
+@media screen and (max-width: 425px) {
+>>>>>>> origin/master
   #text-content{
     background-color: var(--primary);
   }
