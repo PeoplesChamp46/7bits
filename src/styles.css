@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "poppins";
 }
+
 @font-face {
   font-family: cochin;
   src: url(./assets/font/Cochin-LT-Std-Italic_11151.ttf);
@@ -62,7 +63,7 @@
 }
 
 #text-content h1,
-#text-content h1 span{
+#text-content h1 span {
   font-family: 'cochin';
   font-size: 4rem;
   font-weight: bold;
@@ -74,8 +75,8 @@
     height: auto;
   }
 
-  #text-content{
+  #text-content {
     padding: 0 2em;
   }
-  
+
 }

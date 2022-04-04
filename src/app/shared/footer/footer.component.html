@@ -5,14 +5,19 @@
       <div class="col-6 col-md-3">
         <h1>Menu</h1>
         <div class="navbarmb-3" id="navbarNav">
-          <ul class="navbar-nav text-uppercase" >
-            <li class="nav-item d-flex align-items-center " *ngFor="let nav of navs">
-              <a class="nav-link"
+          <ul class="navbar-nav text-uppercase">
+            <li
+              class="nav-item d-flex align-items-center"
+              *ngFor="let nav of navs"
+            >
+              <a
+                class="nav-link"
                 [routerLink]="nav.link"
                 routerLinkActive="active"
-                [routerLinkActiveOptions]="{exact: true}"
-                style="cursor: pointer;"
-                >{{ nav.name }}</a>
+                [routerLinkActiveOptions]="{ exact: true }"
+                style="cursor: pointer"
+                >{{ nav.name }}</a
+              >
             </li>
           </ul>
         </div>
