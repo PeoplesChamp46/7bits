@@ -21,6 +21,10 @@ export class HeroComponent implements OnInit {
   @ViewChild(SwiperComponent)
   swiper!: SwiperComponent;
 
+  myStyle = {
+    display : 'none'
+  }
+
 
   constructor() { }
 
@@ -41,5 +45,13 @@ export class HeroComponent implements OnInit {
   swipeNext() {
     this.swiper.swiperRef.slideNext();
   }
+
+openVideo(){
+  this.myStyle['display'] = 'flex';
+}
+
+closeVideo(){
+  this.myStyle['display'] = 'none';
+}
 
 }

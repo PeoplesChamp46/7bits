@@ -1,53 +1,39 @@
-<!-- 
-<nav class="navbar navbar-expand-md navbar-light">
-  <div class="container-fluid px-sm-5 align-items-md-end">
-    <a class="navbar-brand" href="#">logo</a>
-    <button
-      class="navbar-toggler justify-self-end"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse mb-3" id="navbarToggleExternalContent">
-      <ul class="navbar-nav text-uppercase" >
-        <li class="nav-item" *ngFor="let nav of navs">
-          <a class="nav-link"
-            [routerLink]="nav.link"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{exact: true}"
-            style="cursor: pointer;"
-            >{{ nav.name }}</a
-          >
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
-
 <nav class="navbar navbar-light navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <button
+      class="navbar-toggler bg-light"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">logo</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="navbar-nav text-uppercase" >
+        <ul class="navbar-nav text-uppercase">
           <li class="nav-item" *ngFor="let nav of navs">
-            <a class="nav-link"
+            <a
+              class="nav-link"
               [routerLink]="nav.link"
               routerLinkActive="active"
-              [routerLinkActiveOptions]="{exact: true}"
-              style="cursor: pointer;"
+              [routerLinkActiveOptions]="{ exact: true }"
+              style="cursor: pointer"
               >{{ nav.name }}</a
             >
           </li>
@@ -56,6 +42,3 @@
     </div>
   </div>
 </nav>
-
-
-

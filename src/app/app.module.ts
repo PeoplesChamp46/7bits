@@ -15,6 +15,7 @@ import { CustomerComponent } from './sections/customer/customer.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import { ShopComponent } from './sections/shop/shop.component';
 import { SwiperModule } from "swiper/angular";
+import { CardComponent } from './shared/card/card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SwiperModule } from "swiper/angular";
     BrushComponent,
     CustomerComponent,
     ContactComponent,
-    ShopComponent
+    ShopComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

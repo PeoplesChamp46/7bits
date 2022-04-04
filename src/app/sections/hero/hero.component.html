@@ -1,8 +1,10 @@
 <div class="root-container">
-  <div class="container-fluid h-100">
-    <div class="row h-100 flex-column-reverse flex-md-row justify-content-evenly">
+  <div class="container-fluid h-100 px-0">
+    <div
+      class="row h-100 flex-column-reverse flex-md-row justify-content-evenly justify-content-md-start"
+    >
       <div
-        class="col-2 offset-1 col-md-1 d-flex align-items-md-center align-items-end justify-content-center"
+        class="col-2 offset-1 offset-md-0 col-md-1 d-flex align-items-md-center align-items-end justify-content-center"
       >
         <div class="btn-grp">
           <button (click)="swipePrev()">
@@ -38,7 +40,9 @@
           </button>
         </div>
       </div>
-      <div class="col-md-3 col-8 d-flex align-items-center">
+      <div
+        class="col-md-3 col-8 offset-0 offset-md-1 d-flex align-items-center"
+      >
         <p class="main-text">
           <span id="first-word">your</span> dream with Pentart
         </p>
@@ -90,8 +94,25 @@
         ></ng-template>
       </swiper>
     </div>
-    <div class="play">
+    <div class="play" (click)="openVideo()">
       <div class="play-icon"></div>
     </div>
+  </div>
+
+  <div
+    class="container px-0"
+    id="video"
+    [ngStyle]="myStyle"
+    (click)="closeVideo()"
+  >
+    <iframe
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/dSWa7towEA0?autoplay=1&mute=1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </div>
 </div>

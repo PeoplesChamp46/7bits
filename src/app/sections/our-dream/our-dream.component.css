@@ -68,4 +68,16 @@ button svg {
     overflow: hidden;
   }
   
+  #text-content {
+    background-color: var(--primary);
+  }
+
+  .back-design {
+    display: none
+  }
+
+  button svg {
+    fill: #fff;
+  }
+
 }

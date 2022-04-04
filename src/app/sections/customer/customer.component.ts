@@ -42,4 +42,8 @@ export class CustomerComponent implements OnInit {
     this.swiper.swiperRef.slideNext();
   }
 
+  numSequence(n: number): Array<number> {
+    return Array(n);
+  }
+
 }

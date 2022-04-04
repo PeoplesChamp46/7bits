@@ -1,71 +1,167 @@
 .swiper {
-    width: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    border: solid;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  
-  .swiper-slide img {
-    object-fit: cover;
-    border: solid;
-  }
-
-.back-design{
-    clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
-    background-color: #213057;
+  width: 100%;
 }
 
-.slide-container{
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border: solid;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+.swiper-slide img {
+  object-fit: cover;
+  border: solid;
+}
+
+.back-design {
+  clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
+  background-color: #213057;
+}
+
+.slide-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-grp {
+  display: flex;
+}
+
+.btn-grp button {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 50%;
+  margin-right: 1em;
+  background-color: #361398;
+}
+
+button svg {
+  fill: #fff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  padding: 2.5rem 0;
+
+}
+
+.card {
+
+  width: 276px;
+  height: 361px;
+  box-shadow: 0.418px 2.971px 34px rgba(3, 0, 0, 0.15);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  padding-top: 5rem;
+  text-align: center;
+  position: relative;
+
+  font-size: 15px;
+  line-height: 26px;
+  color: #0f0e0e;
+}
+
+.card .head-text {
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.card .pro-img {
+
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: -2.5rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.card .pro-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-container .card-1 {
+
+  align-self: end;
+  margin-right: 2rem;
+}
+
+.card-container .card-2 {
+
+  align-self: start;
+}
+
+.btn-grp button:hover {
+  background-color: var(--accent);
+}
+
+@media screen and (max-width: 375px) {
+
+  .mySwiper {
+    overflow: hidden;
   }
-  
-  .btn-grp {
-    display: flex;
+
+
+  #text-content {
+    background-color: #213057;
   }
-  
-  .btn-grp button {
-    width: 4rem;
-    height: 4rem;
-    border: none;
-    border-radius: 50%;
-    margin-right: 1em;
-    background-color: #361398;
+
+  .back-design {
+    display: none
   }
-  
+
   button svg {
     fill: #fff;
   }
-  
-  .btn-grp button:hover {
-    background-color: var(--accent);
+
+  .card-container {
+    overflow: hidden;
+    padding: 0 1em;
   }
 
-  @media screen and (max-width: 375px) {
+  .card {
+    height: 25rem;
+    font-size: 12px;
+    padding-inline: 1rem;
+    padding-top: 3rem;
 
-    .mySwiper{
-      overflow: hidden;
-    }
-    
+
   }
+
+  .card-container .card-1 {
+
+    align-self: end;
+    margin-right: 2rem;
+  }
+
+  .card-container .card-2 {
+    margin-top: 2.5rem;
+    align-self: start;
+  }
+}

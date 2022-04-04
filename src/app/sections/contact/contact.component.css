@@ -14,3 +14,14 @@ input, textarea{
   border-bottom: solid 1px;
   
 }
+
+@media screen and (max-width: 375px) {
+
+  #text-content{
+    background-color: #2e3b61;
+  }
+
+  .back-design {
+    display: none
+  }
+}

@@ -1,9 +1,9 @@
 <div class="root-container">
-  <div class="container-fluid h-100">
-    <div class="row h-100 justify-content">
+  <div class="container-fluid h-100 px-0">
+    <div class="row h-100 justify-content flex-column flex-md-row">
       <div class="col-1"></div>
       <div
-        class="col-4 col-md-3 d-flex flex-column align-items-start justify-content-evenly py-5"
+      class="col-12 col-md-3 d-flex flex-column align-items-start justify-content-evenly py-5"
         id="text-content"
       >
         <h1>
@@ -19,8 +19,8 @@
 
         <button class="btn">read more</button>
       </div>
-      <div class="col-1 col-md-4"></div>
-      <div class="col-6 col-md-4 d-flex flex-column justify-content-end  justify-content-md-center align-items-center py-5">
+      <div class="col-0 col-md-4"></div>
+      <div class="col-12 col-md-4  d-flex flex-column justify-content-end  justify-content-md-center align-items-center py-5 px-0">
         <swiper
         [cssMode]="true"
         [navigation]="false"
@@ -28,26 +28,40 @@
         [keyboard]="true"
         class="mySwiper"
       >
-        <ng-template swiperSlide>
+        <ng-template swiperSlide *ngFor="let n of numSequence(6)">
           <div class="slide-container">
-            <img
-              src="../../../assets/imgs/stag-1998855_1280.png"
-              alt=""
-              class="img-fluid"
-            />
+            <div class="card-container">
+              <div class="card card-1">
+                <div class="pro-img">
+                    <img src="https://source.unsplash.com/random/people" alt="">
+                </div>
+                <p class="head-text">
+                    Lorem ipsum
+                </p>
+                <p >
+                  It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its layout. The point of using
+                  Lorem Ipsum is that it has a more-or-less
+                </p>
+              </div>  
+              
+              <div class="card card-2">
+                <div class="pro-img">
+                  <img src="https://source.unsplash.com/random/people" alt="">
+                </div>
+                <p class="head-text">
+                    Lorem ipsum
+                </p>
+                <p >
+                  It is a long established fact that a reader will be distracted by the
+                  readable content of a page when looking at its layout. The point of using
+                  Lorem Ipsum is that it has a more-or-less
+                </p>
+              </div>
+              
+            </div>
           </div>
         </ng-template>
-        <ng-template swiperSlide>
-          <div class="slide-container">
-            <img
-              src="../../../assets/imgs/bird-4449891_1920.png"
-              alt=""
-              class="img-fluid"
-            />
-          </div>
-        </ng-template>
-        <ng-template swiperSlide>Slide 3</ng-template>
-        <ng-template swiperSlide>Slide 4</ng-template>
       </swiper>
       <div class="btn-grp">
         <button (click)="swipePrev()">

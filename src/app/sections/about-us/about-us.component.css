@@ -6,3 +6,20 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+
+@media screen and (max-width: 375px) {
+
+  #text-content{
+    background-color: var(--primary);
+  }
+
+  .back-design {
+    display: none
+  }
+
+  button svg {
+    fill: #fff;
+  }
+
+}

@@ -72,5 +72,9 @@
   .root-container {
     height: auto;
   }
+
+  #text-content{
+    padding: 0 2em;
+  }
   
 }

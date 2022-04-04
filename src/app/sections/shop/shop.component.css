@@ -1,12 +1,32 @@
 .back-design {
   clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
-}
-
-.back-design {
   background-color: #3b466a;
 }
 
 #shop-ab-img{
   left: -4rem;
   bottom: -2rem;
+}
+
+
+@media screen and (max-width: 375px) {
+
+  #text-content {
+    background-color: #3b466a;
+  }
+
+  .back-design {
+    display: none
+  }
+
+  button svg {
+    fill: #fff;
+  }
+
+  #shop-ab-img{
+    height: 100%;
+    left: -4rem;
+    bottom: -2rem;
+  }
+
 }
