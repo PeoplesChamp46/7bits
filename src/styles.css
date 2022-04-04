@@ -22,6 +22,7 @@
 
 .root-container {
   height: 90vh;
+  overflow: hidden;
 }
 
 .container-fluid {

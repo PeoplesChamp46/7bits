@@ -6,6 +6,7 @@
     color: var(--accent);
 }
 
+
 .nav-item{
     margin : 0 1em;
 }
@@ -21,5 +22,6 @@
 }
 
 .navbar{
-    width: calc(100vw - calc(100vw - 100%));
+    width: 100%;
+    
 }
