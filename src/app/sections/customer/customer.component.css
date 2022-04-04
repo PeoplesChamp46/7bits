@@ -61,15 +61,15 @@ button svg {
 .card-container {
   display: flex;
   justify-content: space-between;
-  height: 50vh;
+  height: 60vh;
   padding: 2.5rem 0;
 
 }
 
 .card {
 
-  width: 276px;
-  height: 361px;
+  width: 17rem;
+  height: 22rem;
   box-shadow: 0.418px 2.971px 34px rgba(3, 0, 0, 0.15);
   background-color: #ffffff;
   display: flex;
@@ -121,7 +121,7 @@ button svg {
   background-color: var(--accent);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
 
   .mySwiper {
     overflow: hidden;
@@ -164,4 +164,32 @@ button svg {
     margin-top: 2.5rem;
     align-self: start;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .swiper {
+    width: 100%;
+  }
+
+  .card-container {
+    height: 60vh;
+    overflow: hidden;
+    padding: 0 1em;
+  }
+
+  .card {
+    height: 20rem;
+    font-size: 12px;
+    padding-inline: 1rem;
+    padding-top: 3rem;
+
+
+  }
+
+  .card-container .card-2 {
+    display: none;
+  }
+
 }

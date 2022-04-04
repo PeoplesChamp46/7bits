@@ -20,18 +20,19 @@
         <button class="btn">read more</button>
       </div>
       <div class="col-0 col-md-4"></div>
-      <div class="col-12 col-md-4  d-flex flex-column justify-content-end  justify-content-md-center align-items-center py-5 px-0">
+      <div class="col-12 col-md-4  d-flex flex-column justify-content-end  justify-content-md-center align-items-center py-5 px-2">
         <swiper
         [cssMode]="true"
         [navigation]="false"
         [mousewheel]="true"
         [keyboard]="true"
+        [loop]="true"
         class="mySwiper"
       >
         <ng-template swiperSlide *ngFor="let n of numSequence(6)">
           <div class="slide-container">
             <div class="card-container">
-              <div class="card card-1">
+              <div class="card card-1 ">
                 <div class="pro-img">
                     <img src="https://source.unsplash.com/random/people" alt="">
                 </div>
@@ -45,7 +46,7 @@
                 </p>
               </div>  
               
-              <div class="card card-2">
+              <div class="card card-2 ">
                 <div class="pro-img">
                   <img src="https://source.unsplash.com/random/people" alt="">
                 </div>
@@ -63,7 +64,7 @@
           </div>
         </ng-template>
       </swiper>
-      <div class="btn-grp">
+      <div class="btn-grp mt-4">
         <button (click)="swipePrev()">
           <svg
             xmlns="http://www.w3.org/2000/svg"

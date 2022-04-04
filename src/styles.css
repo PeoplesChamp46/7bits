@@ -68,7 +68,7 @@
   font-weight: bold;
 }
 
-@media screen and (max-width : 375px) {
+@media screen and (max-width : 425px) {
 
   .root-container {
     height: auto;
@@ -78,4 +78,12 @@
     padding: 0 2em;
   }
   
+}
+
+@media screen and (max-width : 768px) {
+
+  .root-container{
+    height: auto;
+  }
+
 }
