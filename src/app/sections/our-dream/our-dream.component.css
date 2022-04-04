@@ -62,7 +62,7 @@ button svg {
   background-color: var(--accent);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
 
   .mySwiper{
     overflow: hidden;
