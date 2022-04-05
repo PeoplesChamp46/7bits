@@ -2,6 +2,12 @@
   width: 100%;
 }
 
+.swiper-wrapper{
+
+  display: flex;
+  align-items: center;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;

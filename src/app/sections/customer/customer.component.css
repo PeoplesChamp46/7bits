@@ -70,7 +70,7 @@ button svg {
 .card {
 
   width: 17rem;
-  height: 22rem;
+  height: 20rem;
   box-shadow: 0.418px 2.971px 34px rgba(3, 0, 0, 0.15);
   background-color: #ffffff;
   display: flex;
@@ -79,7 +79,8 @@ button svg {
   padding-top: 5rem;
   text-align: center;
   position: relative;
-  font-size: 15px;
+  font-size: 10px;
+  font-weight: 500;
   line-height: 26px;
   color: #0f0e0e;
 }
@@ -88,6 +89,7 @@ button svg {
   color: var(--accent);
   font-weight: 700;
   margin-bottom: 1em;
+  font-size: 12px;
 }
 
 .card .pro-img {
@@ -108,7 +110,6 @@ button svg {
 
 .card-container .card-1 {
 
-  align-self: end;
   margin-right: 2rem;
 }
 
@@ -143,7 +144,6 @@ button svg {
   .card-container {
     overflow: hidden;
     padding: 0 1em;
-    height: 70vh;
     margin-bottom: 1em;
   }
 
@@ -153,19 +153,16 @@ button svg {
     padding-inline: 1rem;
     padding-top: 3rem;
 
-
   }
 
-  .card-container .card-1 {
-
-    align-self: end;
+  .card-container .card-1{
+    margin-right: 0;
   }
 
-  .card-container .card-2 {
-    margin-top: 2.5rem;
+/*   .card-container .card-2 {
     align-self: start;
     display: none;
-  }
+  } */
 }
 
 
@@ -183,15 +180,18 @@ button svg {
 
   .card {
     height: 20rem;
-    font-size: 12px;
     padding-inline: 1rem;
     padding-top: 3rem;
+    font-size: 12px;
+
 
   }
 
-  .card-container .card-2 {
+  
+
+/*   .card-container .card-2 {
     display: none;
-  }
+  } */
 
   #spacer {
     display: none;

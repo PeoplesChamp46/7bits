@@ -1,4 +1,4 @@
-<div class="root-container">
+<!-- <div class="root-container">
   <div class="container-fluid h-100 px-0">
     <div class="row h-100 justify-content flex-column flex-md-row">
       <div class="col-0 col-xl-1" id="spacer"></div>
@@ -103,13 +103,13 @@
     </div>
     <div class="back-design"></div>
   </div>
-</div>
+</div> -->
 
 
 
 
- <!-- <div class="root-container">
-  <div class="container h-100">
+ <div class="root-container">
+  <div class="container-lg h-100">
     <div class="row h-100 justify-content flex-column flex-md-row">
       <div
       class="col-12 col-lg-6 d-flex flex-column align-items-start justify-content-evenly py-5"
@@ -120,7 +120,7 @@
           Says Customer
         </h1>
 
-        <p class="text-start col-6">
+        <p class="text-start col-sm-6">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less
@@ -128,7 +128,7 @@
 
         <button class="btn">read more</button>
       </div>
-      <div class="col-12 col-lg-6  d-flex flex-column justify-content-end  justify-content-md-center align-items-center py-5 px-2">
+      <div class="col-12 col-lg-4 offset-lg-2 d-flex flex-column justify-content-center align-items-center">
         <swiper
         [cssMode]="true"
         [navigation]="false"
@@ -140,7 +140,7 @@
         <ng-template swiperSlide *ngFor="let n of numSequence(6)">
           <div class="slide-container">
             <div class="card-container">
-              <div class="card card-1 ">
+              <div class="card card-1 align-self-lg-end align-self-center">
                 <div class="pro-img">
                     <img src="../../../assets/imgs/marius-ciocirlan-vMV6r4VRhJ8-unsplash (1).png" alt="">
                 </div>
@@ -154,7 +154,7 @@
                 </p>
               </div>  
               
-              <div class="card card-2 ">
+              <div class="card card-2 d-xxl-flex d-none">
                 <div class="pro-img">
                   <img src="../../../assets/imgs/irina-iriser-T9_NHo5d0pc-unsplash (1).png" alt="">
                 </div>
@@ -172,7 +172,7 @@
           </div>
         </ng-template>
       </swiper>
-      <div class="btn-grp mt-4">
+      <div class="btn-grp mt-lg-4 mb-4 mb-lg-0">
         <button (click)="swipePrev()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -210,4 +210,3 @@
   </div>
   <div class="back-design"></div>
 </div>
- -->

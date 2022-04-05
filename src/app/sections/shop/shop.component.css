@@ -26,6 +26,8 @@
   }
 
   #shop-ab-img{
+  width: auto;
+
     height: 100%;
     left: -4rem;
     bottom: -2rem;
