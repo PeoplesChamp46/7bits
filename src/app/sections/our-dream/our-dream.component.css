@@ -35,7 +35,6 @@
 }
 
 .slide-container{
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,17 +61,32 @@ button svg {
   background-color: var(--accent);
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 400px) {
-=======
 @media screen and (max-width: 425px) {
->>>>>>> origin/master
 
   .mySwiper{
     overflow: hidden;
   }
   
   #text-content {
+    background-color: var(--primary);
+  }
+
+  .back-design {
+    display: none
+  }
+
+  button svg {
+    fill: #fff;
+  }
+
+}
+@media(min-width: 426px) and (max-width: 992px) { 
+
+  #spacer{
+    display: none;
+  }
+  
+  #text-content{
     background-color: var(--primary);
   }
 

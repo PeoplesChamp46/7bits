@@ -15,11 +15,7 @@ input, textarea{
   
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 400px) {
-=======
 @media screen and (max-width: 425px) {
->>>>>>> origin/master
 
   #text-content{
     background-color: #2e3b61;
@@ -28,4 +24,24 @@ input, textarea{
   .back-design {
     display: none
   }
+}
+
+@media(min-width: 426px) and (max-width: 992px) { 
+
+  #spacer{
+    display: none;
+  }
+  
+  #text-content{
+    background-color: #2e3b61;
+  }
+
+  .back-design {
+    display: none
+  }
+
+  button svg {
+    fill: #fff;
+  }
+
 }

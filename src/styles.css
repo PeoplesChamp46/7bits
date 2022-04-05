@@ -69,11 +69,7 @@
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width : 400px) {
-=======
 @media screen and (max-width : 425px) {
->>>>>>> origin/master
 
   .root-container {
     height: auto;
@@ -82,8 +78,6 @@
   #text-content {
     padding: 0 2em;
   }
-<<<<<<< HEAD
-=======
   
 }
 
@@ -92,6 +86,5 @@
   .root-container{
     height: auto;
   }
->>>>>>> origin/master
 
 }

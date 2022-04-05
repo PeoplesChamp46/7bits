@@ -215,14 +215,10 @@ button:hover svg {
 .bar:nth-child(7) {
   background-color: white;
 
-<<<<<<< HEAD
-@media screen and (max-width: 400px) {
-=======
 }
 
 
 @media screen and (max-width: 425px) {
->>>>>>> origin/master
   .root-container {
     height: 90vh;
   }
@@ -286,9 +282,14 @@ button:hover svg {
 
 }
 
-@media screen and (max-width: 768px) {
+@media(min-width: 426px) and (max-width: 992px) { 
   .root-container {
     height: 90vh;
+  }
+
+  .btn-grp{
+
+    margin-left: 5rem;
   }
 
   .play {
@@ -312,6 +313,10 @@ button:hover svg {
   .skew-con {
     transform: rotate(25deg);
     top: -30%;
+  }
+  
+  .back-design{
+    display: none;
   }
 
 

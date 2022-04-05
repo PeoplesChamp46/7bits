@@ -4,16 +4,14 @@
 }
 
 #shop-ab-img{
+  width: auto;
+  height: 100%;
   left: -4rem;
   bottom: -2rem;
 }
 
 
-<<<<<<< HEAD
-@media screen and (max-width: 400px) {
-=======
 @media screen and (max-width: 425px) {
->>>>>>> origin/master
 
   #text-content {
     background-color: #3b466a;
@@ -31,6 +29,38 @@
     height: 100%;
     left: -4rem;
     bottom: -2rem;
+  }
+
+}
+
+@media(min-width: 426px) and (max-width: 992px) { 
+
+  #spacer{
+    display: none;
+  }
+  
+  #text-content {
+    background-color: #3b466a;
+  }
+
+
+  .back-design {
+    display: none
+  }
+
+  button svg {
+    fill: #fff;
+  }
+
+  #shop-ab-img{
+    height: 100%;
+    left: -2rem;
+    bottom: -1rem;
+  }
+
+  .img-group{
+
+    width: 80%;
   }
 
 }
