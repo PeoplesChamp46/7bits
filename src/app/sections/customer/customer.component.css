@@ -24,10 +24,10 @@
 }
 
 
-.swiper-slide img {
+/* .swiper-slide img {
   object-fit: cover;
   border: solid;
-}
+} */
 
 .back-design {
   clip-path: polygon(0 0, 70% 0, 30% 100%, 0% 100%);
@@ -35,7 +35,7 @@
 }
 
 .slide-container {
-
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,6 @@ button svg {
   padding-top: 5rem;
   text-align: center;
   position: relative;
-
   font-size: 15px;
   line-height: 26px;
   color: #0f0e0e;
@@ -159,12 +158,12 @@ button svg {
   .card-container .card-1 {
 
     align-self: end;
-    margin-right: 2rem;
   }
 
   .card-container .card-2 {
     margin-top: 2.5rem;
     align-self: start;
+    display: none;
   }
 }
 

@@ -12,7 +12,7 @@
           Says Customer
         </h1>
 
-        <p class="text-start col-lg-8">
+        <p class="text-start col-xl-8">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less
@@ -20,7 +20,7 @@
 
         <button class="btn">read more</button>
       </div>
-      <div class="col-0 col-md-3" id="spacer"></div>
+      <div class="col-0 col-md-3 col-lg-4 col-xl-3" id="spacer"></div>
       <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-end  justify-content-md-center align-items-center py-5" >
         <swiper
         [cssMode]="true"
@@ -28,13 +28,13 @@
         [mousewheel]="true"
         [keyboard]="true"
         [loop]="true"
-        [centeredSlides]="true"
+        [spaceBetween]="30"
         class="mySwiper"
       >
         <ng-template swiperSlide *ngFor="let n of numSequence(6)">
           <div class="slide-container">
             <div class="card-container">
-              <div class="card card-1 ">
+              <div class="card card-1">
                 <div class="pro-img">
                     <img src="../../../assets/imgs/marius-ciocirlan-vMV6r4VRhJ8-unsplash (1).png" alt="">
                 </div>

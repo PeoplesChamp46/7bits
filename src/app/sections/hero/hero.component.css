@@ -287,6 +287,39 @@ button:hover svg {
     height: 90vh;
   }
 
+  .main-text {
+    margin-top: 2em;
+    font-size: 60px;
+    color: white;
+    padding-left: 0.5em;
+
+  }
+
+  .back-image::after {
+
+    opacity: 0;
+
+  }
+
+  .back-image::before {
+
+    opacity: 0;
+
+  }
+
+  .back-image {
+    filter: brightness(0.5);
+  }
+
+  button {
+    border: solid #fff;
+
+  }
+
+  button svg {
+    fill: #fff;
+  }
+
   .btn-grp{
 
     margin-left: 5rem;
