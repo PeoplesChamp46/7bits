@@ -63,6 +63,7 @@ button svg {
   justify-content: space-between;
   height: 60vh;
   padding: 2.5rem 0;
+  overflow: hidden;
 
 }
 
@@ -191,7 +192,7 @@ button svg {
   .card-container .card-2 {
     display: none;
   }
-  
+
   #spacer {
     display: none;
   }
@@ -211,10 +212,10 @@ button svg {
 }
 
 
-@media (min-width: 1024px){
+@media (max-width: 1440px) {
 
-  .card-container .card-1 {
+  .card-container .card-2 {
 
-    align-self: end;
+    display: none;
   }
 }
